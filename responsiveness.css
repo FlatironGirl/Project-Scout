@@ -1,0 +1,128 @@
+.menu-icon { 
+  display: none; 
+}
+
+
+@media only screen and (max-width: 1033px) {
+
+  .wrapper {
+      width: 90%;
+      min-width: 352px;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  body {
+    font-size: 85%;
+  }
+
+  #title h1 {
+    font-size: 40px; 
+    /*width: 40px;
+    height: 40px;*/
+  }
+    
+  #states h2 {
+    font-size: 15px;
+  }
+
+  .paw{
+    width: 30px;
+    margin: 0 20px;
+  }
+
+#navbar {
+    font-size: 12px;
+    }
+
+@media only screen and (max-width: 710px) {
+  #navbar nav a {
+    font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    #title h1 {
+    font-size: 30px; 
+    /*width: 40px;
+    height: 40px;*/
+  }
+    
+  #states h2 {
+    font-size: 10px;
+  }
+
+  .paw{
+    width: 25px;
+    margin: 0 20px;
+  }
+
+    #navbar nav a {
+    font-size: 10px;
+    }
+
+    .col-1, .col-2, .col-3 {
+      width: 100%;
+      margin-left: 0;
+      float: none;
+    }
+
+    .border-right {
+      border: 0%;
+    }
+}
+
+@media only screen and (max-width: 583px) {
+  .col-1, .col-2, .col-3 {
+      width: 100%;
+      margin-left: 0;
+      float: none;
+}
+
+  #menu-links {
+    display: none;
+    background: white;
+    clear: both;
+  }
+
+  #navbar nav a.menu-icon {
+      display: block;
+      float: right;
+      font-size: 20px;
+      padding: 2px 20px;
+      width: auto;
+    }
+
+  #navbar nav a {
+      display: block;
+      width: 100%;
+      border-left: 0;
+      border-top: 1px #ccc;
+      text-align: left;
+      padding: 10px;
+      color: black;
+      text-decoration: none;
+      clear: both;
+    }
+
+  #title {
+    padding: 10px 0 0;
+  }
+
+  #states {
+    padding: 0;
+    width: 297px;
+  }
+
+  #states h2 {
+    font-size: 8px;
+    margin-bottom: 50px;
+  }
+
+  .paw{
+    width: 18px;
+    margin: 0 15px;
+  }
+}
+
+

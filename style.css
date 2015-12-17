@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Kameron:400,700);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700);
+
+/*////////// HEADER //////////*/
+body{
+  margin: 0px;
+}
+header {
+  font-family: 'Kameron';
+
+}
+
+
+/*/////BODY/////////*/
+
+#title h1{
+ text-align: center;
+    margin-bottom: 100px;
+    margin-top: 42px;
+    padding-top: 42px;
+    padding-right: 42px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;  
+}
+
+h2 {
+  font-family: 'Vollkorn', sans-serif;
+    font-size: 20px;  
+    font-weight: 400;
+}
+
+h3 {
+  font-family: 'Vollkorn', sans-serif;
+    font-size: 16px; 
+    font-weight: 550;
+    margin-top: 0;
+}
+
+h4{
+  font-family: 'Vollkorn', sans-serif;
+  font-weight: 550;
+  font-style: italic;
+  font-size: 18px; 
+
+}
+nav a{
+    display: inline-block;
+    width: 16.6%;
+    float: left;
+    text-decoration: none;
+    color: #000;
+}
+#title{
+  background-color: #fff;
+}
+
+#states{
+  width: 350px;
+    margin: 0 auto;
+    margin-top: -43px;
+    margin-bottom: 70px;
+    padding: 0 10px;
+    font-family: 'Kameron';
+    font-size: 18px;
+    background-color: #fff;
+}
+
+
+.paw{
+  width: 40px;
+  margin: 0 20px;
+
+}
+
+/*////////// BACKGROUNDS ///////////*/
+
+.cottage-wood {
+  padding: 10px;
+  background: url(images/bg-custom.png) no-repeat center top;
+  background-size: cover;
+}
+
+.wainscoting {
+  padding: 10px;
+  background: url(images/IMG_4491-1.JPG) no-repeat center top;
+  background-size: cover;
+}
+
+/*////////// NAVBAR //////////*/
+
+#navbar {
+  /*width: 902px;*/
+  z-index: 2;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 50px;
+  padding-top: 12px;
+  text-align: center;
+  font-family: georgia, serif;
+  font-size: 18;
+  background: #fff;
+}
+
+#navbar nav a {
+      font-size: 14px;
+    }
+
+.active {
+  color: blue;
+
+}
+
+/*/////////MEDIA //////////////*/
+
+img, video, audio {
+  max-width: 100%;
+}
+
+/*/////// LAYOUT //////////////*/
+
+* {
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.center{
+  text-align: center;
+}
+
+.no_margin_top{
+   margin-top: 0;
+}
+.wrapper {
+  padding: 29px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 0px;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background-color: white;
+}
+ 
+.col-2 {
+  float: left;
+   width: 66%;
+   background-color: white;
+}
+
+.col-3 {
+  background-color: white;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+
+}
+.first{
+  margin-left: 0%;
+}
+
+.entry.photo-border {
+  padding: 13px;
+  border-radius: 4px;
+  border-box;
+  margin: 0 10px 10px 10px;
+}
+
+.outline {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/*.inspire{
+  border: 2px solid #fff;
+  padding: 10px;
+*/
+}
+
+#navbar nav a.menu-icon {
+  display: none;
+}
+
+footer {
+  clear: both;
+  font-size: 12px;
+}
+
+/*////////// SECTIONS //////////*/
+
+section {
+  margin-bottom: 20px;
+ 
+}
+
+figure{
+  margin:0;
+}
+
+/*////////// FIXES //////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*//////// FIGCAPTIONS /////////*/
+
+figcaption {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: Georgia, cursive, "Helvetica", serif;
+  font: normal 0.5em/1.5em 'Georgia', cursive, serif;
+  color: #777;
+  text-align: right;
+}
